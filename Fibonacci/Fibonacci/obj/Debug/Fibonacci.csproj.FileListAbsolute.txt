@@ -1,0 +1,6 @@
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe.config
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\bin\Debug\Fibonacci.pdb
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.exe
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.pdb

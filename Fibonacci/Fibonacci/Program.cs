@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fibonacci.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
+            FibonacciModel objFibonacciModel = new FibonacciModel();
+            objFibonacciModel.setSize(10);
+            objFibonacciModel.showFibonacci();
+            Console.ReadKey();
         }
     }
 }
