@@ -4,3 +4,4 @@ D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\bin\Debu
 D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
 D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.exe
 D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.pdb
+D:\Desarrollo de sistemas empresariales\fibonacciC-\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csprojAssemblyReference.cache

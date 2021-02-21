@@ -12,8 +12,9 @@ namespace Fibonacci
         static void Main(string[] args)
         {
             FibonacciModel objFibonacciModel = new FibonacciModel();
+            //here we assign the size of the sequence
             objFibonacciModel.setSize(10);
-            objFibonacciModel.showFibonacci();
+            objFibonacciModel.show_fibonacci();
             Console.ReadKey();
         }
     }

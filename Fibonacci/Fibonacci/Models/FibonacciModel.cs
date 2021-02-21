@@ -7,13 +7,15 @@ namespace Fibonacci.Models
 {
     public class FibonacciModel
     {
+        //This atribute is for assign size of sequence fibonacci
         private int size;
-        private List<int> listFibonacci = new List<int>();
+        //This List is for save numbers of sequence
+        private List<int> list_fibonacci = new List<int>();
 
-        public FibonacciModel(int size, List<int> listFibonacci)
+        public FibonacciModel(int size, List<int> list_fibonacci)
         {
             this.size = size;
-            this.listFibonacci = listFibonacci;
+            this.list_fibonacci = list_fibonacci;
         }
         public FibonacciModel()
         {
@@ -26,31 +28,32 @@ namespace Fibonacci.Models
         {
             this.size = size;
         }
+        //This function is for generate the fibonacci sequence
         private void fibonacci(int num)
         {
             if (num > 1)
             {
-                listFibonacci.Add(listFibonacci.ElementAt(num - 1) + listFibonacci.ElementAt(num - 2));
+                list_fibonacci.Add(list_fibonacci.ElementAt(num - 1) + list_fibonacci.ElementAt(num - 2));
             }
             else if (num == 1)
             {
-                listFibonacci.Add(1);
+                list_fibonacci.Add(1);
             }
             else if (num == 0)
             {
-                listFibonacci.Add(0);
+                list_fibonacci.Add(0);
             }
             else
             {
                 Console.WriteLine("El tamaño debe ser igual o superior a 1");
             }
         }
-        public void showFibonacci()
+        public void show_fibonacci()
         {
             for (int i = 0; i < this.size; i++)
             {
                 fibonacci(i);
-                Console.Write(this.listFibonacci.ElementAt(i) + ", ");
+                Console.Write(this.list_fibonacci.ElementAt(i) + ", ");
             }
         }
     }
