@@ -24,12 +24,12 @@ namespace Fibonacci.Models
         {
             return size;
         }
-        public void setSize(int size)
+        public void Set_Size(int size)
         {
             this.size = size;
         }
         //This function is for generate the fibonacci sequence
-        private void fibonacci(int num)
+        private void Fibonacci(int num)
         {
             if (num > 1)
             {
@@ -48,13 +48,35 @@ namespace Fibonacci.Models
                 Console.WriteLine("El tamaño debe ser igual o superior a 1");
             }
         }
-        public void show_fibonacci()
+        public void Show_Fibonacci()
         {
             for (int i = 0; i < this.size; i++)
             {
-                fibonacci(i);
+                Fibonacci(i);
                 Console.Write(this.list_fibonacci.ElementAt(i) + ", ");
             }
+            Is_Prime();
         }
+        private void Is_Prime()
+        {
+            bool is_Prime = true;
+            for(int i = 3; i < list_fibonacci.ElementAt(this.size - 1); i++)
+            {
+                if(list_fibonacci.ElementAt(this.size - 1) % i==0)
+                {
+                    is_Prime = false;
+                    break;
+                }
+            }
+            if (is_Prime)
+            {
+                Console.WriteLine("El numero es primo");
+            }
+            else
+            {
+                Console.WriteLine("El numero no es primo");
+            }
+        }
+
     }
 }

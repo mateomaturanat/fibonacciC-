@@ -13,8 +13,8 @@ namespace Fibonacci
         {
             FibonacciModel objFibonacciModel = new FibonacciModel();
             //here we assign the size of the sequence
-            objFibonacciModel.setSize(10);
-            objFibonacciModel.show_fibonacci();
+            objFibonacciModel.Set_Size(8);
+            objFibonacciModel.Show_Fibonacci();
             Console.ReadKey();
         }
     }
